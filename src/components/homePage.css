@@ -1,0 +1,33 @@
+.rooms{
+    width: 80px;
+    height: 80px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.divOfRooms{
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    /* align-items: center; */
+    /* align-content:space-around; */
+    justify-content: space-around;
+    animation-name: op;
+    animation-duration: 1s;
+}
+@keyframes op{
+    0%{
+        position: relative;
+        opacity: 0;
+        left: calc(40%);
+    }
+    100%{
+        position: relative;
+        opacity: 1;
+        left: 0%;
+    }
+}

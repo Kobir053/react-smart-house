@@ -1,0 +1,84 @@
+#details{
+    left: 1px;
+}
+p{
+    text-align: left;
+    margin-left: 20px;
+    color: rgb(161, 10, 10);
+    font-size: larger;
+}
+#bu{
+    background-color:rgb(216, 153, 36);
+    color: rgb(250, 58, 10);
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 20px;
+    opacity: 1;
+}
+#bu:hover{
+    background-color:rgb(228, 159, 30)
+}
+.productDiv{
+    animation-name: pro;
+    animation-duration: 1s;
+}
+#div:hover{
+    opacity: 0.5;
+}
+#removeButton{
+    width: 100%;
+    border: none;
+    background-color:rgb(216, 153, 36);
+    opacity: 1;
+}
+#removeButton:hover{
+    opacity: 0.7;
+}
+@keyframes pro{
+    0%{
+        position: relative;
+        opacity: 0;
+        left: calc(40%);
+    }
+    100%{
+        position: relative;
+        opacity: 1;
+        left: 0%;
+    }
+}
+#selectProduct{
+    border: black solid 1px;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 30px;
+    /* background-color: aquamarine; */
+    background-image: url(C:\Users\svcol\Desktop\react3\newapp\src\background-green2.jpg);
+}
+.addProductDiv{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    border: rgb(56, 126, 9) solid  2px;
+    border-radius: 3px;
+    /* background-color: rgb(193, 236, 247); */
+    /* border: dodgerblue solid 2px; */
+}
+#bu-add{
+    width: 100px;
+    background-color: rgb(174, 235, 106);
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+}
+#bu-x{
+    background-color: rgb(204 229 43);
+    border: rgb(45 70 45) solid 0.5px;
+    color: rgb(45 70 45);
+}
+#bu-x:hover{
+    opacity: 0.8;
+}
+#bu-add:hover{
+    opacity: 0.8;
+}
